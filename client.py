@@ -4,7 +4,7 @@ import cv2
 import base64
 
 sio = socketio.Client();
-sio.connect('https://blackbox-back.herokuapp.com/');
+sio.connect('https://blackbox-socket.herokuapp.com/');
 
 
 

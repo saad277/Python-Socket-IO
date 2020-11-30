@@ -55,9 +55,9 @@
 
     const image = document.querySelector("#image")
 
-    const socket = io.connect("https://blackbox-back.herokuapp.com/")
+   const socket = io.connect("https://blackbox-socket.herokuapp.com/")
 
-    //const socket = io.connect("http://localhost:80")
+  // const socket = io.connect("http://localhost:80")
 
     socket.on("response", (data) => {
 
